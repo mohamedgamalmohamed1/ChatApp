@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310E3CD56F0A1D17F19EB6D9 /* Pods_IDEChat2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C264173F002408CC7C86D5 /* Pods_IDEChat2019.framework */; };
+		705E3AD822B6C65D0075682D /* HomeForm .swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E3AD722B6C65D0075682D /* HomeForm .swift */; };
 		70E74B7A22B2607C00D48053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E74B7922B2607C00D48053 /* AppDelegate.swift */; };
 		70E74B7C22B2607C00D48053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E74B7B22B2607C00D48053 /* ViewController.swift */; };
 		70E74B7F22B2607C00D48053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E74B7D22B2607C00D48053 /* Main.storyboard */; };
 		70E74B8122B2607E00D48053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E74B8022B2607E00D48053 /* Assets.xcassets */; };
 		70E74B8422B2607E00D48053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E74B8222B2607E00D48053 /* LaunchScreen.storyboard */; };
+		70E80C4B22B788C7006D55E7 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E80C4A22B788C7006D55E7 /* ChatRoomViewController.swift */; };
+		70EA8D5422B677720005CCCE /* RoomNameCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA8D5322B677720005CCCE /* RoomNameCellTableViewCell.swift */; };
+		70EA8D5622B67C810005CCCE /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA8D5522B67C810005CCCE /* Room.swift */; };
+		70EBE3DD22B2A18700C7E39E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70EBE3DC22B2A18700C7E39E /* GoogleService-Info.plist */; };
+		70F097D422B3EB0900B36749 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F097D322B3EB0900B36749 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E3EC9E9536FA053DAF7BFE5 /* Pods-IDEChat2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDEChat2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDEChat2019/Pods-IDEChat2019.debug.xcconfig"; sourceTree = "<group>"; };
+		705E3AD722B6C65D0075682D /* HomeForm .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeForm .swift"; sourceTree = "<group>"; };
 		70E74B7622B2607C00D48053 /* IDEChat2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDEChat2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E74B7922B2607C00D48053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70E74B7B22B2607C00D48053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		70E74B8022B2607E00D48053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70E74B8322B2607E00D48053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70E74B8522B2607E00D48053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E80C4A22B788C7006D55E7 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		70EA8D5322B677720005CCCE /* RoomNameCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomNameCellTableViewCell.swift; sourceTree = "<group>"; };
+		70EA8D5522B67C810005CCCE /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		70EBE3DC22B2A18700C7E39E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70F097D322B3EB0900B36749 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		77C264173F002408CC7C86D5 /* Pods_IDEChat2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDEChat2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFD2559CD1EBA639E5F6308 /* Pods-IDEChat2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDEChat2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDEChat2019/Pods-IDEChat2019.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310E3CD56F0A1D17F19EB6D9 /* Pods_IDEChat2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				70E74B7822B2607C00D48053 /* IDEChat2019 */,
 				70E74B7722B2607C00D48053 /* Products */,
+				89E04066E3CFE6F4C0736979 /* Pods */,
+				981A12F7CD97EC76DF82574C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				70E74B7922B2607C00D48053 /* AppDelegate.swift */,
+				705E3AD722B6C65D0075682D /* HomeForm .swift */,
 				70E74B7B22B2607C00D48053 /* ViewController.swift */,
+				70E80C4A22B788C7006D55E7 /* ChatRoomViewController.swift */,
+				70EA8D5522B67C810005CCCE /* Room.swift */,
+				70F097D322B3EB0900B36749 /* HomeViewController.swift */,
+				70EA8D5322B677720005CCCE /* RoomNameCellTableViewCell.swift */,
 				70E74B7D22B2607C00D48053 /* Main.storyboard */,
 				70E74B8022B2607E00D48053 /* Assets.xcassets */,
 				70E74B8222B2607E00D48053 /* LaunchScreen.storyboard */,
 				70E74B8522B2607E00D48053 /* Info.plist */,
+				70EBE3DC22B2A18700C7E39E /* GoogleService-Info.plist */,
 			);
 			path = IDEChat2019;
+			sourceTree = "<group>";
+		};
+		89E04066E3CFE6F4C0736979 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E3EC9E9536FA053DAF7BFE5 /* Pods-IDEChat2019.debug.xcconfig */,
+				7EFD2559CD1EBA639E5F6308 /* Pods-IDEChat2019.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		981A12F7CD97EC76DF82574C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C264173F002408CC7C86D5 /* Pods_IDEChat2019.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70E74B8822B2607E00D48053 /* Build configuration list for PBXNativeTarget "IDEChat2019" */;
 			buildPhases = (
+				739AEECBC336560F0477D04F /* [CP] Check Pods Manifest.lock */,
 				70E74B7222B2607C00D48053 /* Sources */,
 				70E74B7322B2607C00D48053 /* Frameworks */,
 				70E74B7422B2607C00D48053 /* Resources */,
+				BC09F1D79AB1F2690FEF8CD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70E74B8422B2607E00D48053 /* LaunchScreen.storyboard in Resources */,
+				70EBE3DD22B2A18700C7E39E /* GoogleService-Info.plist in Resources */,
 				70E74B8122B2607E00D48053 /* Assets.xcassets in Resources */,
 				70E74B7F22B2607C00D48053 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +175,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		739AEECBC336560F0477D04F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IDEChat2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC09F1D79AB1F2690FEF8CD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IDEChat2019/Pods-IDEChat2019-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDEChat2019/Pods-IDEChat2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70E74B7222B2607C00D48053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E80C4B22B788C7006D55E7 /* ChatRoomViewController.swift in Sources */,
+				70EA8D5622B67C810005CCCE /* Room.swift in Sources */,
 				70E74B7C22B2607C00D48053 /* ViewController.swift in Sources */,
 				70E74B7A22B2607C00D48053 /* AppDelegate.swift in Sources */,
+				705E3AD822B6C65D0075682D /* HomeForm .swift in Sources */,
+				70F097D422B3EB0900B36749 /* HomeViewController.swift in Sources */,
+				70EA8D5422B677720005CCCE /* RoomNameCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +375,12 @@
 		};
 		70E74B8922B2607E00D48053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E3EC9E9536FA053DAF7BFE5 /* Pods-IDEChat2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PD8D5SRM3M;
 				INFOPLIST_FILE = IDEChat2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mohamed-gamal.IDEChat2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +396,12 @@
 		};
 		70E74B8A22B2607E00D48053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFD2559CD1EBA639E5F6308 /* Pods-IDEChat2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PD8D5SRM3M;
 				INFOPLIST_FILE = IDEChat2019/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +409,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "mohamed-gamal.IDEChat2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
