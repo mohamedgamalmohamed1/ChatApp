@@ -52,6 +52,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70053D2422DB449F00ED0E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70E74B7922B2607C00D48053 /* AppDelegate.swift */,
+				70E74B7D22B2607C00D48053 /* Main.storyboard */,
+				70E74B8022B2607E00D48053 /* Assets.xcassets */,
+				70E74B8522B2607E00D48053 /* Info.plist */,
+				70E74B8222B2607E00D48053 /* LaunchScreen.storyboard */,
+				70EBE3DC22B2A18700C7E39E /* GoogleService-Info.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70053D2522DB44CD00ED0E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				705E3AD722B6C65D0075682D /* HomeForm .swift */,
+				70EA8D5522B67C810005CCCE /* Room.swift */,
+				70EA8D5322B677720005CCCE /* RoomNameCellTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70053D2622DB450E00ED0E2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70E74B7B22B2607C00D48053 /* ViewController.swift */,
+				70E80C4A22B788C7006D55E7 /* ChatRoomViewController.swift */,
+				70F097D322B3EB0900B36749 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		70E74B6D22B2607C00D48053 = {
 			isa = PBXGroup;
 			children = (
@@ -73,18 +106,9 @@
 		70E74B7822B2607C00D48053 /* IDEChat2019 */ = {
 			isa = PBXGroup;
 			children = (
-				70E74B7922B2607C00D48053 /* AppDelegate.swift */,
-				705E3AD722B6C65D0075682D /* HomeForm .swift */,
-				70E74B7B22B2607C00D48053 /* ViewController.swift */,
-				70E80C4A22B788C7006D55E7 /* ChatRoomViewController.swift */,
-				70EA8D5522B67C810005CCCE /* Room.swift */,
-				70F097D322B3EB0900B36749 /* HomeViewController.swift */,
-				70EA8D5322B677720005CCCE /* RoomNameCellTableViewCell.swift */,
-				70E74B7D22B2607C00D48053 /* Main.storyboard */,
-				70E74B8022B2607E00D48053 /* Assets.xcassets */,
-				70E74B8222B2607E00D48053 /* LaunchScreen.storyboard */,
-				70E74B8522B2607E00D48053 /* Info.plist */,
-				70EBE3DC22B2A18700C7E39E /* GoogleService-Info.plist */,
+				70053D2622DB450E00ED0E2B /* Controller */,
+				70053D2522DB44CD00ED0E2B /* Model */,
+				70053D2422DB449F00ED0E2B /* View */,
 			);
 			path = IDEChat2019;
 			sourceTree = "<group>";
